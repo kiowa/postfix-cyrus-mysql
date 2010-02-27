@@ -1,0 +1,54 @@
+body, p, td, .text
+{
+ color: black;
+ text-alignment: justify;
+ text-indentation: 0.2cm;
+ font-family: Tahoma, Verdana, Geneva, Palatino, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+}
+body                { background-color: white }
+a:link              { color: #003399 }
+a:visited           { color: #003399 }
+a:active, a:hover   { color: #3366CC }
+big             { font-size: larger; }
+small           { font-size: smaller; }
+
+.bar            { background-color: #dddddd }
+.shade          { background-color: #eeeeee }
+.error, .error:link, .error:visited, .error:active { color: red }
+.disabled, .disabled:link, .disabled:visited, .disabled:active { color: red }
+.enabled, .enabled:link, .enabled:visited  { color: #003399 }
+.enabled:active, .enabled.hover { color: #3366CC }
+.title          { font-size: 18px; font-weight: bold; font-variant: small-caps; }
+.smalltitle     { font-size: 14px; font-weight: bold; font-variant: small-caps; }
+
+
+#leftcontent { 
+  position : absolute;
+  left : 10px;
+  top : 50px;
+  width : 15%;
+  background : #eeeeee;
+ }
+
+#centercontent { 
+  background:#fff;
+  margin-left: 17%;
+  voice-family: "\"}\"";
+voice-family: inherit;
+}
+
+#banner { 
+  background:#eeeeee;
+  height:40px;
+  voice-family: "\"}\"";
+voice-family: inherit;
+height:39px;
+}
+
+
+.box{ 
+  background-color : #eeeeee;
+  border : 2px solid #505050;
+  padding : 3mm;
+ }

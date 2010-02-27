@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/listowner_notification.fi.tpl

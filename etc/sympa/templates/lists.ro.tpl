@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/lists.ro.tpl

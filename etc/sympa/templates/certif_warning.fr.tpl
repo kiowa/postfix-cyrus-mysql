@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/certif_warning.fr.tpl

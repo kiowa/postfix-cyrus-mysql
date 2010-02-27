@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/listmaster_notification.us.tpl

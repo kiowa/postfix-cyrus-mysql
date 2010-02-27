@@ -1,0 +1,5 @@
+cp -r conf /etc/nsadmin
+edit /etc/nsadmin/Site.conf
+
+Setup your webware's Application.Config to point to the correct directory
+where you have setup this directory.

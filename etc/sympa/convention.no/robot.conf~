@@ -1,0 +1,22 @@
+http_host lists.convention.no
+
+wwsympa_url http://lists.convention.no
+
+## Listmasters email addresses
+listmaster ummo@hellokitty.com
+
+## Title for the ML service
+## It is displayed as a title in the web interface
+title Convention
+
+create_list listmaster
+
+## The default action when entering the web interface
+## Can be 'lists', 'home' or 'which'
+default_home lists
+
+## You can define custom colors for the Virtual Robot's
+## Web interface
+#dark_color #00aa00
+#light_color #ddffdd
+#selected_color #0099cc

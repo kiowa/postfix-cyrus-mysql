@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/expire_deletion.nl.tpl

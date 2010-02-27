@@ -1,0 +1,18 @@
+#-- WWSYMPA begin
+# DO NOT REMOVE SURROUNDING COMMENTS
+
+# If you want to change the WWSympa CGI configuration, please do not
+# edit this portion of httpd.conf directly.
+
+# Instead, please put your WWSympa CGI specific configuration 
+# into file /etc/sympa/httpd.conf-cgi
+# and then run `dpkg-reconfigure -plow sympa'
+
+AddHandler cgi-script .fcgi .cgi .pl .sh
+
+Alias /wwsicons /usr/share/sympa/icons
+
+ScriptAlias /wws /usr/lib/cgi-bin/sympa/wwsympa.fcgi
+
+#-- WWSYMPA end
+

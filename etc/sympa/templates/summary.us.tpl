@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/summary.us.tpl

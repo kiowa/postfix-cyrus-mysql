@@ -1,0 +1,25 @@
+#-- WWSYMPA begin
+# DO NOT REMOVE SURROUNDING COMMENTS
+
+# If you want to change the FastCGI configuration, please do not
+# edit this portion of httpd.conf directly.
+
+# Instead, please put your WWSympa CGI specific configuration 
+# into file /etc/sympa/httpd.conf-fcgi
+# and then run `dpkg-reconfigure -plow sympa'
+
+<IfModule mod_fastcgi.c>
+AddHandler fastcgi-script .fcg .fcgi .fpl
+
+FastCgiServer /usr/lib/cgi-bin/sympa/wwsympa.fcgi -processes 2
+<Location /wws>
+    SetHandler fastcgi-script
+</Location>
+
+Alias /wwsicons /usr/share/sympa/icons
+
+ScriptAlias /wws /usr/lib/cgi-bin/sympa/wwsympa.fcgi
+</IfModule>
+
+#-- WWSYMPA end
+

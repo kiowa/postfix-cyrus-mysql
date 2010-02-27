@@ -1,0 +1,22 @@
+#-- S/MIME configuration begin
+# DO NOT REMOVE SURROUNDING COMMENTS
+
+# DO NOT MODIFY TEMPLATE VARIABLES
+# If you want to reconfigure Sympa for using S/MIME, please run
+#   dpkg-reconfigure -plow sympa
+
+# Location of the openssl binary
+openssl		/usr/bin/openssl
+
+# Openssl CA Options
+capath /etc/ssl/certs
+cafile /usr/share/sympa/ca-bundle.crt
+
+# Password to the lists private key (template variable)
+key_passwd	@KEY_PASSWORD@
+
+# SSL certificates directory
+ssl_cert_dir	/var/lib/sympa/x509-user-certs
+
+#-- S/MIME configuration end
+

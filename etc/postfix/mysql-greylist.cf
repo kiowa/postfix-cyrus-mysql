@@ -1,0 +1,10 @@
+hosts = localhost
+user = mail
+password = mypassword
+
+dbname = mail
+table = virtual
+
+select_field = greylist
+where_field = address
+additional_conditions = and greylist = 'N'

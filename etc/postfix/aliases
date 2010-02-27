@@ -1,0 +1,9 @@
+# See man 5 aliases for format
+postmaster:    root
+#-- SYMPA begin
+## Aliases used for the sympa mailing-list manager
+sympa:		"|/usr/lib/sympa/bin/queue sympa"
+sympa-request:	postmaster
+sympa-owner:	postmaster
+listmaster:	postmaster
+#-- SYMPA end

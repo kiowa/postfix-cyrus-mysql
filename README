@@ -1,0 +1,28 @@
+A virtual email setup for ISPs.
+
+We've been running this setup for 6-7 years with little or no problems.
+After discontinuing or outsourcing many of our ISP services we decided
+to make this public for your amusement.
+
+It uses postfix for mail transport.
+Cyrus for mailboxes.
+Mysql for users, virtuals and aliases.
+Postfix-gld for greylisting.
+Dspam as an bayesian spam filter.
+Sympa for mailing lists.
+
+You will find most configs for your inspiration in the 'etc' folder.
+And all the sql schemas are in the 'sql' folder.
+
+Also included in the 'admin' folder is a Webware project 
+(this is pre-django code) for management of imap users, virtuals, 
+aliases and mailing lists.
+
+For new installations you should/could probably use Django to do all the entity
+relations with mysql, but there is some cyrus, sasl and sympa code
+in there for your python project.
+
+Enjoy.
+For NettStudio AS (http://nettstudio.no),
+Alexander Brill <alex@brill.no>
+

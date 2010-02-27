@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/invite.fi.tpl

@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/stats_report.pl.tpl

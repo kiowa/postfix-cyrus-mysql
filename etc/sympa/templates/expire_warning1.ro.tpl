@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/expire_warning1.ro.tpl

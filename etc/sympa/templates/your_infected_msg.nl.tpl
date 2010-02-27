@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/your_infected_msg.nl.tpl

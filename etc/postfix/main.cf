@@ -1,0 +1,86 @@
+# see /usr/share/postfix/main.cf.dist for a commented, fuller
+# version of this file.
+
+# Do not change these directory settings - they are critical to Postfix
+# operation.
+command_directory = /usr/sbin
+daemon_directory = /usr/lib/postfix
+program_directory = /usr/lib/postfix
+
+smtpd_banner = $myhostname ESMTP $mail_name (Debian/GNU)
+setgid_group = postdrop
+biff = no
+
+# appending .domain is the MUA's job.
+append_dot_mydomain = yes
+myhostname = shatner.nettstudio.no
+alias_maps = mysql:/etc/postfix/mysql-alias.cf,
+	mysql:/etc/postfix/mysql-sympa-alias.cf
+virtual_maps = mysql:/etc/postfix/mysql-virtual.cf,
+	mysql:/etc/postfix/mysql-sympa-virtual.cf
+virtual_alias_domains = mysql:/etc/postfix/mysql-mydestination.cf
+#sender_canonical_maps = mysql:/etc/postfix/mysql-canonical.cf
+myorigin = $myhostname
+mydestination = $myhostname, 
+	localhost, 
+	kunder.nettstudio.no, 
+	mail.nettstudio.no,
+
+#relayhost = [mail.online.no]
+mynetworks = 
+	127.0.0.1, 
+	195.204.39.224/27
+
+mailbox_command = 
+mailbox_size_limit = 0
+recipient_delimiter = +
+mailbox_transport = lmtp:unix:/var/run/cyrus/socket/lmtp
+smtpd_helo_required = yes
+unknown_address_reject_code  = 554
+unknown_hostname_reject_code = 554
+unknown_client_reject_code   = 554
+smtpd_client_restrictions =
+
+smtpd_recipient_restrictions = 
+	permit_mynetworks,
+	permit_sasl_authenticated,
+	check_recipient_access mysql:/etc/postfix/mysql-recipients,
+	check_recipient_access hash:/etc/postfix/access,
+	reject_non_fqdn_sender,
+	reject_non_fqdn_recipient,
+	reject_unknown_sender_domain,
+	reject_unknown_recipient_domain,
+	reject_unauth_destination,
+	#check_policy_service unix:private/policy,
+	check_policy_service inet:127.0.0.1:2525,
+	permit
+
+#content_filter = smtp-amavis:[127.0.0.1]:10024
+# TLS
+smtpd_tls_key_file = /etc/ssl/private/mail.nettstudio.no.pem
+smtpd_tls_cert_file = /etc/ssl/certs/mail.nettstudio.no.cer
+#smtpd_tls_CAfile = /etc/ssl/certs/cacert.pem
+smtpd_tls_CApath = /etc/ssl/certs/
+smtpd_use_tls = yes
+# SASL
+smtpd_sasl_auth_enable = yes
+smtpd_sasl_security_options = noanonymous
+smtpd_sasl_local_domain =
+broken_sasl_auth_clients = yes
+
+# Size limits
+mailbox_size_limit = 67108864
+message_size_limit = 64108864
+queue_minfree = 96163296
+
+smtpd_junk_command_limit = 2
+spamc_destination_recipient_limit = 1
+transport_maps = regexp:/etc/postfix/transport
+
+disable_vrfy_command = yes
+smtpd_error_sleep_time = 1s
+smtpd_soft_error_limit = 5
+smtpd_hard_error_limit = 10
+smtpd_timeout = 30s
+
+dspam_destination_recipient_limit=1

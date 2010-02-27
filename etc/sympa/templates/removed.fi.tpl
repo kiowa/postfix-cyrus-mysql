@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/removed.fi.tpl

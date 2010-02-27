@@ -1,0 +1,196 @@
+{
+    objects = {
+        003B87A043394BC14302CC61 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "IDN.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/IDN.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/IDN.py"; 
+        }; 
+        003B883043394BC14302C3F1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Cyrus.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Cyrus.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Cyrus.py"; 
+        }; 
+        003D3A9043394BC143047151 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Print.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Print.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Print.py"; 
+        }; 
+        04827B0043394BC147BB30C1 = (04827B1043394BC147BB30D1); 
+        04827B1043394BC147BB30D1 = {
+            "IDEKit_ProjEntryKind" = 3; 
+            "IDEKit_ProjEntryName" = DefaultTarget; 
+            "IDEKit_TargetEntryFiles" = 04827B4043394BC147BB3081; 
+            "PyOXIDE_MainFile" = 048AFFC043394BC147B3B401; 
+        }; 
+        04827B4043394BC147BB3081 = (
+            0533926043394BC1460AD9A1, 
+            048B5DD043394BC147B21611, 
+            051F347043394BC146267FB1, 
+            051FF6E043394BC14626BD21, 
+            003B883043394BC14302C3F1, 
+            003B87A043394BC14302CC61, 
+            051F863043394BC14626CDF1, 
+            048B4EE043394BC147B20521, 
+            051F8ED043394BC14626C511, 
+            051D891043394BC14624C2D1, 
+            003D3A9043394BC143047151, 
+            051F5C1043394BC1462617D1, 
+            048AFFC043394BC147B3B401, 
+            051DF78043394BC14624BC41, 
+            051DBD3043394BC14624F6F1, 
+            051D871043394BC14624CCD1, 
+            051C723043394BC1462539F1, 
+            048703E043394BC147BE4821
+        ); 
+        04827BC043394BC147BB3001 = (
+            04827BD043394BC147BB3011, 
+            0533926043394BC1460AD9A1, 
+            048B5DD043394BC147B21611, 
+            051F347043394BC146267FB1, 
+            051FF6E043394BC14626BD21, 
+            003B883043394BC14302C3F1, 
+            003B87A043394BC14302CC61, 
+            051F863043394BC14626CDF1, 
+            048B4EE043394BC147B20521, 
+            051F8ED043394BC14626C511, 
+            051D891043394BC14624C2D1, 
+            003D3A9043394BC143047151, 
+            051F5C1043394BC1462617D1, 
+            048AFFC043394BC147B3B401, 
+            051DF78043394BC14624BC41, 
+            051DBD3043394BC14624F6F1, 
+            051D871043394BC14624CCD1, 
+            051C723043394BC1462539F1, 
+            048703E043394BC147BE4821
+        ); 
+        04827BD043394BC147BB3011 = {
+            "IDEKit_ProjEntryGroup" = 04827C3043394BC147BB37F1; 
+            "IDEKit_ProjEntryKind" = 2; 
+            "IDEKit_ProjEntryName" = "__Root"; 
+        }; 
+        04827C3043394BC147BB37F1 = (
+            0533926043394BC1460AD9A1, 
+            048B5DD043394BC147B21611, 
+            051F347043394BC146267FB1, 
+            051FF6E043394BC14626BD21, 
+            003B883043394BC14302C3F1, 
+            003B87A043394BC14302CC61, 
+            051F863043394BC14626CDF1, 
+            048B4EE043394BC147B20521, 
+            051F8ED043394BC14626C511, 
+            051D891043394BC14624C2D1, 
+            003D3A9043394BC143047151, 
+            051F5C1043394BC1462617D1, 
+            048AFFC043394BC147B3B401, 
+            051DF78043394BC14624BC41, 
+            051DBD3043394BC14624F6F1, 
+            051D871043394BC14624CCD1, 
+            051C723043394BC1462539F1, 
+            048703E043394BC147BE4821
+        ); 
+        048703E043394BC147BE4821 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "XMLRPC.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/XMLRPC.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/XMLRPC.py"; 
+        }; 
+        048AFFC043394BC147B3B401 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "SitePage.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/SitePage.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/SitePage.py"; 
+            "PyOXIDE_Destination" = "N/A"; 
+        }; 
+        048B4EE043394BC147B20521 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Login.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Login.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Login.py"; 
+        }; 
+        048B5DD043394BC147B21611 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Auth.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Auth.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Auth.py"; 
+        }; 
+        0515C9F043394BC1462C8231 = {
+            "IDEKit_CurrentTarget" = 04827B1043394BC147BB30D1; 
+            "IDEKit_FileList" = 04827BC043394BC147BB3001; 
+            "IDEKit_ProjEntryKind" = 7; 
+            "IDEKit_RootGroup" = 04827BD043394BC147BB3011; 
+            "IDEKit_TargetList" = 04827B0043394BC147BB30C1; 
+            "IDEKit_Version" = 1; 
+        }; 
+        051C723043394BC1462539F1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Virtual.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Virtual.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Virtual.py"; 
+        }; 
+        051D871043394BC14624CCD1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Validators.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Validators.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Validators.py"; 
+        }; 
+        051D891043394BC14624C2D1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Mysql.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Mysql.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Mysql.py"; 
+        }; 
+        051DBD3043394BC14624F6F1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Users.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Users.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Users.py"; 
+        }; 
+        051DF78043394BC14624BC41 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Sympa.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Sympa.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Sympa.py"; 
+        }; 
+        051F347043394BC146267FB1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Brreg.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Brreg.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Brreg.py"; 
+        }; 
+        051F5C1043394BC1462617D1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Recipients.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Recipients.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Recipients.py"; 
+        }; 
+        051F863043394BC14626CDF1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Index.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Index.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Index.py"; 
+        }; 
+        051F8ED043394BC14626C511 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Logs.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Logs.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Logs.py"; 
+        }; 
+        051FF6E043394BC14626BD21 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "Companies.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/Companies.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/Companies.py"; 
+        }; 
+        0533926043394BC1460AD9A1 = {
+            "IDEKit_ProjEntryKind" = 1; 
+            "IDEKit_ProjEntryName" = "__init__.py"; 
+            "IDEKit_ProjEntryPath" = "/Users/kiowa/svn/nettstudio/NSAdmin/__init__.py"; 
+            "IDEKit_ProjEntryRelative" = "{Project}/__init__.py"; 
+        }; 
+    }; 
+    rootObject = 0515C9F043394BC1462C8231; 
+    version = 1; 
+}

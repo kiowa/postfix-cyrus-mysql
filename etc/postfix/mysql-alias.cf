@@ -1,0 +1,10 @@
+hosts = localhost
+user = mail
+password = mypass
+
+dbname = mail
+table = alias
+
+select_field = dest
+where_field = alias
+additional_conditions = and status = '1'

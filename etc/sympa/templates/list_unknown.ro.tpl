@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/list_unknown.ro.tpl

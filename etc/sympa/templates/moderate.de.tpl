@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/moderate.de.tpl

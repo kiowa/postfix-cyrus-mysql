@@ -1,0 +1,12 @@
+# Postfix dynamic maps configuration file.
+#
+# The first match found is the one that is used.  Wildcards are not supported
+# as of postfix 2.0.2
+#
+#type	location of .so file			name of open function
+#====	================================	=====================
+tcp     /usr/lib/postfix/dict_tcp.so            dict_tcp_open
+mysql	/usr/lib/postfix/dict_mysql.so		dict_mysql_open
+sdbm	/usr/lib/postfix/dict_sdbm.so		dict_sdbm_open
+pcre	/usr/lib/postfix/dict_pcre.so		dict_pcre_open
+ldap	/usr/lib/postfix/dict_ldap.so		dict_ldap_open

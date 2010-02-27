@@ -1,0 +1,1 @@
+/usr/share/sympa/templates/info_report.et.tpl
